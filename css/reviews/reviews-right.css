@@ -1,0 +1,98 @@
+.right {
+    position: relative;
+    height: auto;
+    padding: 50px 70px;
+    background: #fff;
+    overflow-y: auto;
+}
+
+.right-title {
+    margin: 0 0 40px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Gilroy", sans-serif;
+    color: var(--green-text);
+}
+
+.lr-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    position: relative;
+    row-gap: 0.75em;
+}
+
+.lr-name {
+    margin: 0 0 16px;
+}
+.lr-phone {
+    margin: 0 0 16px;
+}
+.lr-email {
+    margin: 0 0 16px;
+}
+.lr-rate {
+    margin: 0 0 16px;
+}
+.lr-comment {
+    margin: 0 0 16px;
+}
+.lr-rate > label {
+    display: block;
+}
+.lr-comment > textarea {
+    height: 144px;
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    margin: 0;
+    max-height: none;
+    max-width: none;
+    min-height: auto;
+    min-width: auto;
+    width: 100%;
+    padding: 13px 15px;
+    color: var(--green-text);
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.lr-agree {
+    display: flex;
+    margin: 0 0 16px;
+    display: flex;
+    align-items: center;
+    color: var(--green-text);
+}
+.agree-text > p {
+    margin: 0 0 5px;
+    color: var(--green-text);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.lr-submit {
+    margin: 0 0 16px;
+    background: var(--orange);
+    height: 56px;    
+}
+.lr-submit a {
+    height: 100%;
+    color: var(--green-text);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lr-submit span{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}

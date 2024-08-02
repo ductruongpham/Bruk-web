@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*title font-family: "Gilroy", sans-serif; */
+:root {
+    --green-text: #065D63;
+    --gray-text: rgba(42, 41, 41, 0.7);
+    --bg: #fafafa;
+    --date-text: #BDBDBD;
+    --orange: #F4B42D;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F7F6FB;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F4B42D;
+}
